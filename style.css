@@ -12,6 +12,20 @@ body {
 .grey3{
   color: rgb(161, 160, 160);
 }
+
+a {
+  text-decoration:none; 
+}
+
+.box {
+  padding: 0.5em 2em;
+  margin: 2em 0;
+  color: #2c2c2f;
+  background: #eaf9fc;/*背景色*/
+  display: flex;
+  justify-content:space-between;
+}
+
 /* ナビバーのスタイル */
 .logo{
   display: flex;
