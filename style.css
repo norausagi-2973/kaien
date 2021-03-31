@@ -1,7 +1,8 @@
 /* bodyのスタイル */
 body {
   margin: 0px;
-  font-family: "游ゴシック";
+  font-family: sans-serif ;
+  -webkit-text-size-adjust: 100%;
 }
 /* 文字の色 */
 .grey1{
