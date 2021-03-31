@@ -1,6 +1,7 @@
 /* bodyのスタイル */
 body {
   margin: 0px;
+  font-family: "游ゴシック";
 }
 /* 文字の色 */
 .grey1{
@@ -75,7 +76,8 @@ a {
 .slidemoji{
   position: absolute;
   text-align: center;
-  font-size: 60px;
+  width: 100vw;
+  font-size: 70px;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -224,6 +226,16 @@ a {
   .slide_img{
     width: 100vw;
     height: 700px;
+  }
+
+  .slidemoji{
+    position: absolute;
+    text-align: center;
+    font-size: 70px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
   }
 
   .main{
