@@ -2,7 +2,6 @@
 body {
   margin: 0px;
   font-family: sans-serif ;
-  -webkit-text-size-adjust: 100%;
 }
 /* 文字の色 */
 .grey1{
@@ -14,16 +13,17 @@ body {
 }
 
 .h1-1{
-  font-size: 40px;
+  font-size: 60px;
   border-bottom: 3px solid rgb(111, 194, 233);
 }
 
 .h1-2{
+  font-size: 50px;
   border-bottom: 2px solid rgb(111, 194, 233);
 }
 
 .h1-3{
-  font-size: 30px;
+  font-size: 50px;
 }
 
 a {
@@ -96,7 +96,7 @@ a {
 }
 
 .main2{
-  width: 95%;
+  width: 92%;
   padding: 2%;
 }
 
@@ -111,7 +111,7 @@ a {
 }
 
 .manual-moji{
-  font-size: 18px; 
+  font-size: 40px; 
   /* line-height: 40px; */
 }
 
@@ -125,13 +125,18 @@ a {
 
 /* 四段目のスタイル */
 .box4{
-  height: 400px;
+  height: 500px;
   padding-top: 80px;
   background-color: rgb(243, 243, 243);
   text-align: center;
 }
 .box4-moji{
+  font-size: 50px;
   padding: 10px;
+}
+
+.box4-moji2{
+  font-size: 40px;
 }
 
 /* フッターのスタイル */
@@ -172,6 +177,19 @@ a {
 
 @media screen and (min-width:1024px) {
 
+  .h1-1{
+    font-size: 25px;
+    border-bottom: 3px solid rgb(111, 194, 233);
+  }
+  
+  .h1-2{
+    font-size: 20px;
+    border-bottom: 2px solid rgb(111, 194, 233);
+  }
+  
+  .h1-3{
+    font-size: 20px;
+  }
   /* ナビバーのスタイル */
   .logo{
     display: flex;
@@ -184,7 +202,7 @@ a {
   }
   .navbox{
     display: flex;
-    width: 1150px;
+    width: 1100px;
     justify-content:space-between;
   }
   #nav {
@@ -226,13 +244,13 @@ a {
 
   .slide_img{
     width: 100vw;
-    height: 700px;
+    height: 600px;
   }
 
   .slidemoji{
     position: absolute;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -249,7 +267,7 @@ a {
   }
   
   .main2{
-    width: 1100px;
+    width: 1000px;
   }
 
   .box {
@@ -261,9 +279,18 @@ a {
     justify-content:space-between;
   }
 
+  .box4-moji{
+    font-size: 40px;
+    padding: 10px;
+  }
+
+  .box4-moji2{
+    font-size: 30px;
+  }
+
   .manual-moji{
-    font-size: 20px; 
-    line-height: 40px;
+    font-size: 15px; 
+    line-height: 35px;
   }
 
   .footer{
