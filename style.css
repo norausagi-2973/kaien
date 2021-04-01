@@ -279,13 +279,20 @@ a {
     justify-content:space-between;
   }
 
+  .box4{
+    height: 400px;
+    padding-top: 80px;
+    background-color: rgb(243, 243, 243);
+    text-align: center;
+  }
+
   .box4-moji{
-    font-size: 40px;
+    font-size: 25px;
     padding: 10px;
   }
 
   .box4-moji2{
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .manual-moji{
